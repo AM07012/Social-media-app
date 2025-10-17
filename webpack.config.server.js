@@ -12,7 +12,9 @@ const config = {
         publicPath: '/dist/',
         libraryTarget: "commonjs2"
     },
+    
     externals: [nodeExternals()],
+    
     module: {
         rules: [
             {
